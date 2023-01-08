@@ -1,5 +1,30 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2739;
+    height: 60px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10vw;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10vw;
 }
