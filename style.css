@@ -44,6 +44,7 @@ body {
     flex: 1;
     gap: 20px;
     background: #1F2739;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -84,4 +85,42 @@ button {
     margin-right: 10vw;
 }
 
+.section .two {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
+.top p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.bottom .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box .img {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.bottom .boxes .box {
+    width: 150px;
+    min-width: 150px;
+}
+
+.subtext {
+    text-align: center;
+    margin-top: 5px;
+}
