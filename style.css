@@ -33,7 +33,6 @@ body {
 }
 
 .section {
-    height: 400px;
     display: flex;    
 }
 
@@ -45,12 +44,17 @@ body {
     gap: 20px;
     background: #1F2739;
     flex-wrap: wrap;
+    padding-top: 5vw;
+    padding-bottom: 8vw;
+    flex-wrap: wrap;
+
 }
 
 .title {
     flex: 1;
     margin-left: 10vw;
     color: #f9faf8;
+    margin-right: 10px;
 }
 
 .title h1 {
@@ -79,16 +83,20 @@ button {
     flex: 1;
     background: gray;
     height: 250px;
+    min-width: 400px;
     color: #f9faf8;
     align-items: center;
     justify-content: center;
     margin-right: 10vw;
+    margin-left: 10px;
 }
 
 .section .two {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .top p {
@@ -107,6 +115,10 @@ button {
     flex-wrap: wrap;
 }
 
+.bottom .boxes .box {
+    width: 150px;
+}
+
 .box .img {
     height: 150px;
     width: 150px;
@@ -115,12 +127,36 @@ button {
     border-radius: 10px;
 }
 
-.bottom .boxes .box {
-    width: 150px;
-    min-width: 150px;
-}
-
 .subtext {
     text-align: center;
     margin-top: 5px;
+}
+
+.quote {
+    display: flex;
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .three {
+    display: flex;
+    flex-direction: column;
+    max-width: 820px;
+    margin: 5vw;
+
+}
+
+.quote .three .one {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote .three .two {
+    font-size: 24px;
+    text-align: end;
+    color: #1F2739;
+    font-weight: bold;
 }
